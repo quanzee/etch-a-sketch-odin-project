@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* full height of the viewport */
+    margin: 0; /* remove default margin */
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 480px;
+    max-height: 480px;
+    border: 3px solid black;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border: dotted grey;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
